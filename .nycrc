@@ -1,0 +1,22 @@
+{
+  "cache": false,
+  "check-coverage": false,
+  "extension": [
+    ".js"
+  ],
+  "include": [
+    "../format_json.js"
+  ],
+  "exclude": [
+    "coverage/**",
+    "node_modules/**"
+  ],
+  "sourceMap": true,
+  "reporter": [
+    "html",
+    "text",
+    "text-summary"
+  ],
+  "all": true,
+  "instrument": true
+}
